@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>XXEXAMPLE.FHIR.UV.MYIG\Handedness Value Set - JSON Representation - FHIR v4.0.1</title>
+    <title>MY-IG\Handedness Value Set - JSON Representation - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -74,9 +74,9 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">xxYour User Friendly Name for MyIG Here</span>
+          <p><span style="font-size:12pt;font-weight:bold">HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1</span>
             <br/>
-            <span style="display:inline-block;">0.1.0-test - CI Build
+            <span style="display:inline-block;">1.0.0 - STU1
 
 
 
@@ -158,7 +158,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 8" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">xxYour User Friendly Name for MyIG Here, published by xxxYour Work Group. This is not an authorized publication; it is the continuous build for version 0.1.0-test). This version is based on the current content of <a href="https://github.com/DigitalSQR/icd-breaker">https://github.com/DigitalSQR/icd-breaker</a> and changes regularly. See the <a href="http://xxsomewhere.org/fhir/myig/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1, published by My Organization. This is not an authorized publication; it is the continuous build for version 1.0.0). This version is based on the current content of <a href="https://github.com/DigitalSQR/icd-breaker">https://github.com/DigitalSQR/icd-breaker</a> and changes regularly. See the <a href="http://example.com/fhir/example/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -237,18 +237,33 @@
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;a href=\&quot;http://terminology.hl7.org/5.0.0/CodeSystem-icd10.html\&quot;&gt;&lt;code&gt;http://hl7.org/fhir/sid/icd-10&lt;/code&gt;&lt;/a&gt;&lt;table class=\&quot;none\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Z63.1&lt;/td&gt;&lt;td&gt;Problems in relationship with parents and in-laws&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
   },
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">url</a>" : "http://example.com/fhir/example/ValueSet/handedness-vs",
-  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">version</a>" : "0.1.0-test",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">version</a>" : "1.0.0",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">name</a>" : "HandednessVS",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">title</a>" : "Handedness Value Set",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">status</a>" : "active",
-  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">date</a>" : "2023-04-15T12:23:08+00:00",
-  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">publisher</a>" : "xxxYour Work Group",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">date</a>" : "2023-04-15T12:28:03+00:00",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">publisher</a>" : "My Organization",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">contact</a>" : [
     {
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "My Organization",
       "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
         {
           "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "http://xxhl7.org/Special/committees/[something]"
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "http://example.com/committees"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "email",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "my-group@example.com"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "Bob Smith",
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "email",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "bobsmith@example.com",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.use">use</a>" : "work"
         }
       ]
     }
@@ -259,7 +274,8 @@
       "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
         {
           "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "001"
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "001",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "World"
         }
       ]
     }
@@ -308,13 +324,13 @@
            
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="http://xxhl7.org/Special/committees/[something]">xxxYour Work Group</a>.  Package xxexample.fhir.uv.myig#0.1.0-test based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Apr 15, 2023 12:23+0000">2023-04-15</span>
+          IG &#169; 2021+ <a style="color: #81BEF7" href="http://example.com/committees">My Organization</a>.  Package my-ig#1.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Apr 15, 2023 12:28+0000">2023-04-15</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
                  <a style="color: #81BEF7" href="qa.html">QA Report</a> |
                  
-                 <a style="color: #81BEF7" target="_blank" href="http://xxsomewhere.org/fhir/myig/history.html">Version History</a> |
+                 <a style="color: #81BEF7" target="_blank" href="http://example.com/fhir/example/history.html">Version History</a> |
                  <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC-BY" src="assets/images/cc-by.png" height="17"/></a> |
                  <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
 

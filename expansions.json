@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "c6bb54c3-a595-40b6-881c-ad8590327609",
+  "id" : "c05d4a2f-3f51-4038-9282-b51eca53300d",
   "meta" : {
-    "lastUpdated" : "2023-04-15T12:23:08.856+00:00"
+    "lastUpdated" : "2023-04-15T12:28:03.037+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -15,29 +15,43 @@
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on http://hl7.org/fhir/sid/icd-10 version 2019-covid-expanded</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-sid-icd-10-Z63.1\"> </a>\u00a0\u00a0Z63.1</td><td>http://hl7.org/fhir/sid/icd-10</td><td>Problems in relationship with parents and in-laws</td></tr></table></div>"
       },
       "url" : "http://example.com/fhir/example/ValueSet/handedness-vs",
-      "version" : "0.1.0-test",
+      "version" : "1.0.0",
       "name" : "HandednessVS",
       "title" : "Handedness Value Set",
       "status" : "active",
-      "date" : "2023-04-15T12:23:08+00:00",
-      "publisher" : "xxxYour Work Group",
+      "date" : "2023-04-15T12:28:03+00:00",
+      "publisher" : "My Organization",
       "contact" : [{
+        "name" : "My Organization",
         "telecom" : [{
           "system" : "url",
-          "value" : "http://xxhl7.org/Special/committees/[something]"
+          "value" : "http://example.com/committees"
+        },
+        {
+          "system" : "email",
+          "value" : "my-group@example.com"
+        }]
+      },
+      {
+        "name" : "Bob Smith",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "bobsmith@example.com",
+          "use" : "work"
         }]
       }],
       "description" : "Indicates the dominant hand.",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001"
+          "code" : "001",
+          "display" : "World"
         }]
       }],
       "copyright" : "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement",
       "expansion" : {
-        "identifier" : "urn:uuid:4858404c-3055-4fd9-9b2e-fd39319cf1d3",
-        "timestamp" : "2023-04-15T12:23:17+00:00",
+        "identifier" : "urn:uuid:f8c3d2b1-2c1f-4c74-be24-420b1621a42a",
+        "timestamp" : "2023-04-15T12:28:11+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",

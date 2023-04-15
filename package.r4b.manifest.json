@@ -1,6 +1,6 @@
 {
-  "version" : "0.1.0-test",
-  "date" : "20230415122231",
+  "version" : "1.0.0",
+  "date" : "20230415122727",
   "notForPublication" : true,
-  "name" : "xxexample.fhir.uv.myig.r4b"
+  "name" : "my-ig.r4b"
 }

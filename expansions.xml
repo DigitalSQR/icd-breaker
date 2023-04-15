@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="c6bb54c3-a595-40b6-881c-ad8590327609"/>
+  <id value="c05d4a2f-3f51-4038-9282-b51eca53300d"/>
   <meta>
-    <lastUpdated value="2023-04-15T12:23:08.856+00:00"/>
+    <lastUpdated value="2023-04-15T12:28:03.037+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -39,16 +39,29 @@
           </div>
         </text>
         <url value="http://example.com/fhir/example/ValueSet/handedness-vs"/>
-        <version value="0.1.0-test"/>
+        <version value="1.0.0"/>
         <name value="HandednessVS"/>
         <title value="Handedness Value Set"/>
         <status value="active"/>
-        <date value="2023-04-15T12:23:08+00:00"/>
-        <publisher value="xxxYour Work Group"/>
+        <date value="2023-04-15T12:28:03+00:00"/>
+        <publisher value="My Organization"/>
         <contact>
+          <name value="My Organization"/>
           <telecom>
             <system value="url"/>
-            <value value="http://xxhl7.org/Special/committees/[something]"/>
+            <value value="http://example.com/committees"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="my-group@example.com"/>
+          </telecom>
+        </contact>
+        <contact>
+          <name value="Bob Smith"/>
+          <telecom>
+            <system value="email"/>
+            <value value="bobsmith@example.com"/>
+            <use value="work"/>
           </telecom>
         </contact>
         <description value="Indicates the dominant hand."/>
@@ -56,12 +69,13 @@
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
             <code value="001"/>
+            <display value="World"/>
           </coding>
         </jurisdiction>
         <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
         <expansion>
-          <identifier value="urn:uuid:4858404c-3055-4fd9-9b2e-fd39319cf1d3"/>
-          <timestamp value="2023-04-15T12:23:17+00:00"/>
+          <identifier value="urn:uuid:f8c3d2b1-2c1f-4c74-be24-420b1621a42a"/>
+          <timestamp value="2023-04-15T12:28:11+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
