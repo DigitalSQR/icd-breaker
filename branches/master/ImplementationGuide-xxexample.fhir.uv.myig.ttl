@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "xxYour User Friendly Name for MyIG Here"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-04-15T12:16:20+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-04-15T12:23:08+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "xxxYour Work Group"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -518,6 +518,18 @@
          fhir:value [ fhir:v "true" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] ) ;
+     fhir:resource ( [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/ValueSet/handedness-vs> ;
+         fhir:reference [ fhir:v "ValueSet/handedness-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Handedness Value Set" ] ;
+       fhir:description [ fhir:v "Indicates the dominant hand." ]
      ] ) ;
      fhir:page [
        fhir:extension ( [

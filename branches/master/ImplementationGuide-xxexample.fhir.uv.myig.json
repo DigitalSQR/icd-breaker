@@ -11,7 +11,7 @@
   "title" : "xxYour User Friendly Name for MyIG Here",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-04-15T12:16:20+00:00",
+  "date" : "2023-04-15T12:23:08+00:00",
   "publisher" : "xxxYour Work Group",
   "contact" : [{
     "telecom" : [{
@@ -611,6 +611,17 @@
         "valueString" : "true"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    }],
+    "resource" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/handedness-vs"
+      },
+      "name" : "Handedness Value Set",
+      "description" : "Indicates the dominant hand."
     }],
     "page" : {
       "extension" : [{
