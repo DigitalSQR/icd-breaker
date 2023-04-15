@@ -1,6 +1,6 @@
 // @Name: Include Single Codes
 // @Description: Value set with explicit codes
-Alias: ICD = http://hl7.org/fhir/sid/icd-10
+Alias: ICD = http://hl7.org/fhir/sid/icd-10-cm
 
 ValueSet: HandednessVS
 Id: handedness-vs
