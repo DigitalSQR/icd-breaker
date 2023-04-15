@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "c05d4a2f-3f51-4038-9282-b51eca53300d",
+  "id" : "5a499adc-b4d2-432c-b45a-c84e6e83dfcd",
   "meta" : {
-    "lastUpdated" : "2023-04-15T12:28:03.037+00:00"
+    "lastUpdated" : "2023-04-15T12:55:35.434+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -12,14 +12,14 @@
       "id" : "handedness-vs",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on http://hl7.org/fhir/sid/icd-10 version 2019-covid-expanded</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-sid-icd-10-Z63.1\"> </a>\u00a0\u00a0Z63.1</td><td>http://hl7.org/fhir/sid/icd-10</td><td>Problems in relationship with parents and in-laws</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on http://hl7.org/fhir/sid/icd-10-cm version 2021</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-sid-icd-10-cm-Z63.1\"> </a>\u00a0\u00a0Z63.1</td><td>http://hl7.org/fhir/sid/icd-10-cm</td><td>Problems in relationship with in-laws</td></tr></table></div>"
       },
       "url" : "http://example.com/fhir/example/ValueSet/handedness-vs",
       "version" : "1.0.0",
       "name" : "HandednessVS",
       "title" : "Handedness Value Set",
       "status" : "active",
-      "date" : "2023-04-15T12:28:03+00:00",
+      "date" : "2023-04-15T12:55:35+00:00",
       "publisher" : "My Organization",
       "contact" : [{
         "name" : "My Organization",
@@ -50,8 +50,8 @@
       }],
       "copyright" : "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement",
       "expansion" : {
-        "identifier" : "urn:uuid:f8c3d2b1-2c1f-4c74-be24-420b1621a42a",
-        "timestamp" : "2023-04-15T12:28:11+00:00",
+        "identifier" : "urn:uuid:ddf245c3-d770-4c07-a0de-42198b31506d",
+        "timestamp" : "2023-04-15T12:55:44+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -63,12 +63,12 @@
         },
         {
           "name" : "version",
-          "valueUri" : "http://hl7.org/fhir/sid/icd-10|2019-covid-expanded"
+          "valueUri" : "http://hl7.org/fhir/sid/icd-10-cm|2021"
         }],
         "contains" : [{
-          "system" : "http://hl7.org/fhir/sid/icd-10",
+          "system" : "http://hl7.org/fhir/sid/icd-10-cm",
           "code" : "Z63.1",
-          "display" : "Problems in relationship with parents and in-laws"
+          "display" : "Problems in relationship with in-laws"
         }]
       }
     }
