@@ -587,10 +587,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/icd-selectio-vs"
+        "reference" : "ValueSet/icd-selection-vs"
       },
-      "name" : "ICD Selectio Value Set",
-      "description" : "A fine selection of ICD code.",
+      "name" : "ICD Selection Value Set",
+      "description" : "A fine selection of ICD codes.",
       "exampleBoolean" : false
     }],
     "page" : {

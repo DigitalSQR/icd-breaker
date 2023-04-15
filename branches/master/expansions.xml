@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="f6311a6a-f45b-45b9-9781-71a50e0b1ef2"/>
+  <id value="11381266-9dd6-4536-ad0d-95f25b671f12"/>
   <meta>
-    <lastUpdated value="2023-04-15T13:11:25.766+00:00"/>
+    <lastUpdated value="2023-04-15T13:13:57.104+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="http://example.com/fhir/example/ValueSet/icd-selectio-vs"/>
+    <fullUrl value="http://example.com/fhir/example/ValueSet/icd-selection-vs"/>
     <resource>
       <ValueSet>
-        <id value="icd-selectio-vs"/>
+        <id value="icd-selection-vs"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -38,12 +38,13 @@
             </table>
           </div>
         </text>
-        <url value="http://example.com/fhir/example/ValueSet/icd-selectio-vs"/>
+        <url value="http://example.com/fhir/example/ValueSet/icd-selection-vs"/>
         <version value="1.0.0"/>
-        <name value="ICDSelectionV"/>
-        <title value="ICD Selectio Value Set"/>
+        <name value="ICDSelectionVS"/>
+        <title value="ICD Selection Value Set"/>
         <status value="active"/>
-        <date value="2023-04-15T13:11:25+00:00"/>
+        <experimental value="true"/>
+        <date value="2023-04-15T13:13:57+00:00"/>
         <publisher value="My Organization"/>
         <contact>
           <name value="My Organization"/>
@@ -64,7 +65,7 @@
             <use value="work"/>
           </telecom>
         </contact>
-        <description value="A fine selection of ICD code."/>
+        <description value="A fine selection of ICD codes."/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -74,8 +75,8 @@
         </jurisdiction>
         <copyright value="This value set includes content from ICD-10"/>
         <expansion>
-          <identifier value="urn:uuid:dcf8c62d-e843-49a3-9b40-90e1067a43c9"/>
-          <timestamp value="2023-04-15T13:11:34+00:00"/>
+          <identifier value="urn:uuid:222ebee6-7a26-41ce-ae29-65af1f35d9c4"/>
+          <timestamp value="2023-04-15T13:14:04+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>

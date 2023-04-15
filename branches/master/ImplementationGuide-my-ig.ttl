@@ -500,11 +500,11 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.com/fhir/example/ValueSet/icd-selectio-vs> ;
-         fhir:reference [ fhir:v "ValueSet/icd-selectio-vs" ]
+         fhir:link <http://example.com/fhir/example/ValueSet/icd-selection-vs> ;
+         fhir:reference [ fhir:v "ValueSet/icd-selection-vs" ]
        ] ;
-       fhir:name [ fhir:v "ICD Selectio Value Set" ] ;
-       fhir:description [ fhir:v "A fine selection of ICD code." ] ;
+       fhir:name [ fhir:v "ICD Selection Value Set" ] ;
+       fhir:description [ fhir:v "A fine selection of ICD codes." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] ) ;
      fhir:page [

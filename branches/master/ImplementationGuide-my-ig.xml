@@ -441,10 +441,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/icd-selectio-vs"/>
+        <reference value="ValueSet/icd-selection-vs"/>
       </reference>
-      <name value="ICD Selectio Value Set"/>
-      <description value="A fine selection of ICD code."/>
+      <name value="ICD Selection Value Set"/>
+      <description value="A fine selection of ICD codes."/>
       <exampleBoolean value="false"/>
     </resource>
     <page>

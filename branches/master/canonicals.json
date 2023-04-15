@@ -7,10 +7,10 @@
     "name" : "ExampleIG"
   },
   {
-    "id" : "icd-selectio-vs",
+    "id" : "icd-selection-vs",
     "type" : "ValueSet",
-    "url" : "http://example.com/fhir/example/ValueSet/icd-selectio-vs",
+    "url" : "http://example.com/fhir/example/ValueSet/icd-selection-vs",
     "version" : "1.0.0",
-    "name" : "ICDSelectionV"
+    "name" : "ICDSelectionVS"
   }
 ]
