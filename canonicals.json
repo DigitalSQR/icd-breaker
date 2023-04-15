@@ -1,5 +1,12 @@
 [
   {
+    "id" : "handedness-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.com/fhir/example/ValueSet/handedness-vs",
+    "version" : "0.1.0-test",
+    "name" : "HandednessVS"
+  },
+  {
     "id" : "xxexample.fhir.uv.myig",
     "type" : "ImplementationGuide",
     "url" : "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
