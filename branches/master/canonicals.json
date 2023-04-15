@@ -1,16 +1,16 @@
 [
   {
+    "id" : "my-ig",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.com/fhir/example",
+    "version" : "1.0.0",
+    "name" : "ExampleIG"
+  },
+  {
     "id" : "handedness-vs",
     "type" : "ValueSet",
     "url" : "http://example.com/fhir/example/ValueSet/handedness-vs",
-    "version" : "0.1.0-test",
+    "version" : "1.0.0",
     "name" : "HandednessVS"
-  },
-  {
-    "id" : "xxexample.fhir.uv.myig",
-    "type" : "ImplementationGuide",
-    "url" : "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
-    "version" : "0.1.0-test",
-    "name" : "XXYourComputableMyIGNameHere"
   }
 ]
