@@ -1,25 +1,25 @@
 {
   "resourceType" : "Bundle",
-  "id" : "5a499adc-b4d2-432c-b45a-c84e6e83dfcd",
+  "id" : "f6311a6a-f45b-45b9-9781-71a50e0b1ef2",
   "meta" : {
-    "lastUpdated" : "2023-04-15T12:55:35.434+00:00"
+    "lastUpdated" : "2023-04-15T13:11:25.766+00:00"
   },
   "type" : "collection",
   "entry" : [{
-    "fullUrl" : "http://example.com/fhir/example/ValueSet/handedness-vs",
+    "fullUrl" : "http://example.com/fhir/example/ValueSet/icd-selectio-vs",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "handedness-vs",
+      "id" : "icd-selectio-vs",
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on http://hl7.org/fhir/sid/icd-10-cm version 2021</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-sid-icd-10-cm-Z63.1\"> </a>\u00a0\u00a0Z63.1</td><td>http://hl7.org/fhir/sid/icd-10-cm</td><td>Problems in relationship with in-laws</td></tr></table></div>"
       },
-      "url" : "http://example.com/fhir/example/ValueSet/handedness-vs",
+      "url" : "http://example.com/fhir/example/ValueSet/icd-selectio-vs",
       "version" : "1.0.0",
-      "name" : "HandednessVS",
-      "title" : "Handedness Value Set",
+      "name" : "ICDSelectionV",
+      "title" : "ICD Selectio Value Set",
       "status" : "active",
-      "date" : "2023-04-15T12:55:35+00:00",
+      "date" : "2023-04-15T13:11:25+00:00",
       "publisher" : "My Organization",
       "contact" : [{
         "name" : "My Organization",
@@ -40,7 +40,7 @@
           "use" : "work"
         }]
       }],
-      "description" : "Indicates the dominant hand.",
+      "description" : "A fine selection of ICD code.",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -48,10 +48,10 @@
           "display" : "World"
         }]
       }],
-      "copyright" : "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement",
+      "copyright" : "This value set includes content from ICD-10",
       "expansion" : {
-        "identifier" : "urn:uuid:ddf245c3-d770-4c07-a0de-42198b31506d",
-        "timestamp" : "2023-04-15T12:55:44+00:00",
+        "identifier" : "urn:uuid:dcf8c62d-e843-49a3-9b40-90e1067a43c9",
+        "timestamp" : "2023-04-15T13:11:34+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
