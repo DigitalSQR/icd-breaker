@@ -3,7 +3,7 @@
 
 err = 3, warn = 6, info = 0
 IG Publisher Version: 1.3.4
-Generated Sat Apr 15 12:28:17 UTC 2023. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
+Generated Sat Apr 15 12:55:50 UTC 2023. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
  Build Errors : 0 / 5 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig : 3 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-handedness-vs : 0 / 1 / 1

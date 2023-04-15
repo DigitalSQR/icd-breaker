@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="c05d4a2f-3f51-4038-9282-b51eca53300d"/>
+  <id value="5a499adc-b4d2-432c-b45a-c84e6e83dfcd"/>
   <meta>
-    <lastUpdated value="2023-04-15T12:28:03.037+00:00"/>
+    <lastUpdated value="2023-04-15T12:55:35.434+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -15,7 +15,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 1 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on http://hl7.org/fhir/sid/icd-10 version 2019-covid-expanded</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on http://hl7.org/fhir/sid/icd-10-cm version 2021</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -30,10 +30,10 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-sid-icd-10-Z63.1"> </a>  Z63.1
+                  <a name="http---hl7.org-fhir-sid-icd-10-cm-Z63.1"> </a>  Z63.1
                 </td>
-                <td>http://hl7.org/fhir/sid/icd-10</td>
-                <td>Problems in relationship with parents and in-laws</td>
+                <td>http://hl7.org/fhir/sid/icd-10-cm</td>
+                <td>Problems in relationship with in-laws</td>
               </tr>
             </table>
           </div>
@@ -43,7 +43,7 @@
         <name value="HandednessVS"/>
         <title value="Handedness Value Set"/>
         <status value="active"/>
-        <date value="2023-04-15T12:28:03+00:00"/>
+        <date value="2023-04-15T12:55:35+00:00"/>
         <publisher value="My Organization"/>
         <contact>
           <name value="My Organization"/>
@@ -74,8 +74,8 @@
         </jurisdiction>
         <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
         <expansion>
-          <identifier value="urn:uuid:f8c3d2b1-2c1f-4c74-be24-420b1621a42a"/>
-          <timestamp value="2023-04-15T12:28:11+00:00"/>
+          <identifier value="urn:uuid:ddf245c3-d770-4c07-a0de-42198b31506d"/>
+          <timestamp value="2023-04-15T12:55:44+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -87,12 +87,12 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://hl7.org/fhir/sid/icd-10|2019-covid-expanded"/>
+            <valueUri value="http://hl7.org/fhir/sid/icd-10-cm|2021"/>
           </parameter>
           <contains>
-            <system value="http://hl7.org/fhir/sid/icd-10"/>
+            <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
             <code value="Z63.1"/>
-            <display value="Problems in relationship with parents and in-laws"/>
+            <display value="Problems in relationship with in-laws"/>
           </contains>
         </expansion>
       </ValueSet>

@@ -3,14 +3,14 @@
   "id" : "handedness-vs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-icd10.html\"><code>http://hl7.org/fhir/sid/icd-10</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>Z63.1</td><td>Problems in relationship with parents and in-laws</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-icd10CM.html\"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>Z63.1</td><td>Problems in relationship with in-laws</td></tr></table></li></ul></div>"
   },
   "url" : "http://example.com/fhir/example/ValueSet/handedness-vs",
   "version" : "1.0.0",
   "name" : "HandednessVS",
   "title" : "Handedness Value Set",
   "status" : "active",
-  "date" : "2023-04-15T12:28:03+00:00",
+  "date" : "2023-04-15T12:55:35+00:00",
   "publisher" : "My Organization",
   "contact" : [{
     "name" : "My Organization",
@@ -42,7 +42,7 @@
   "copyright" : "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement",
   "compose" : {
     "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "system" : "http://hl7.org/fhir/sid/icd-10-cm",
       "concept" : [{
         "code" : "Z63.1"
       }]
