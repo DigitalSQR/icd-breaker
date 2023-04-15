@@ -441,10 +441,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/handedness-vs"/>
+        <reference value="ValueSet/icd-selectio-vs"/>
       </reference>
-      <name value="Handedness Value Set"/>
-      <description value="Indicates the dominant hand."/>
+      <name value="ICD Selectio Value Set"/>
+      <description value="A fine selection of ICD code."/>
       <exampleBoolean value="false"/>
     </resource>
     <page>

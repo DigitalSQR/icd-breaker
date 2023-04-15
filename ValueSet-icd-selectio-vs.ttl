@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://example.com/fhir/example/ValueSet/handedness-vs> a fhir:ValueSet ;
+<http://example.com/fhir/example/ValueSet/icd-selectio-vs> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "handedness-vs"] ; # 
+  fhir:id [ fhir:v "icd-selectio-vs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-icd10CM.html\"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>Z63.1</td><td>Problems in relationship with in-laws</td></tr></table></li></ul></div>"
   ] ; # 
-  fhir:url [ fhir:v "http://example.com/fhir/example/ValueSet/handedness-vs"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://example.com/fhir/example/ValueSet/icd-selectio-vs"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
-  fhir:name [ fhir:v "HandednessVS"] ; # 
-  fhir:title [ fhir:v "Handedness Value Set"] ; # 
+  fhir:name [ fhir:v "ICDSelectionV"] ; # 
+  fhir:title [ fhir:v "ICD Selectio Value Set"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-04-15T12:55:35+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-04-15T13:11:25+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "My Organization"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "My Organization" ] ;
@@ -36,7 +36,7 @@
        fhir:use [ fhir:v "work" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "Indicates the dominant hand."] ; # 
+  fhir:description [ fhir:v "A fine selection of ICD code."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
@@ -44,7 +44,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:copyright [ fhir:v "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"] ; # 
+  fhir:copyright [ fhir:v "This value set includes content from ICD-10"] ; # 
   fhir:compose [
      fhir:include ( [
        fhir:system [ fhir:v "http://hl7.org/fhir/sid/icd-10-cm"^^xsd:anyURI ] ;

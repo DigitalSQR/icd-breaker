@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="handedness-vs"/>
+  <id value="icd-selectio-vs"/>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://terminology.hl7.org/5.0.0/CodeSystem-icd10CM.html"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>Z63.1</td><td>Problems in relationship with in-laws</td></tr></table></li></ul></div>
   </text>
-  <url value="http://example.com/fhir/example/ValueSet/handedness-vs"/>
+  <url value="http://example.com/fhir/example/ValueSet/icd-selectio-vs"/>
   <version value="1.0.0"/>
-  <name value="HandednessVS"/>
-  <title value="Handedness Value Set"/>
+  <name value="ICDSelectionV"/>
+  <title value="ICD Selectio Value Set"/>
   <status value="active"/>
-  <date value="2023-04-15T12:55:35+00:00"/>
+  <date value="2023-04-15T13:11:25+00:00"/>
   <publisher value="My Organization"/>
   <contact>
     <name value="My Organization"/>
@@ -31,7 +31,7 @@
       <use value="work"/>
     </telecom>
   </contact>
-  <description value="Indicates the dominant hand."/>
+  <description value="A fine selection of ICD code."/>
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -39,7 +39,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
+  <copyright value="This value set includes content from ICD-10"/>
   <compose>
     <include>
       <system value="http://hl7.org/fhir/sid/icd-10-cm"/>

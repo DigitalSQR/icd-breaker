@@ -7,10 +7,10 @@
     "name" : "ExampleIG"
   },
   {
-    "id" : "handedness-vs",
+    "id" : "icd-selectio-vs",
     "type" : "ValueSet",
-    "url" : "http://example.com/fhir/example/ValueSet/handedness-vs",
+    "url" : "http://example.com/fhir/example/ValueSet/icd-selectio-vs",
     "version" : "1.0.0",
-    "name" : "HandednessVS"
+    "name" : "ICDSelectionV"
   }
 ]

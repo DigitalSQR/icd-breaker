@@ -587,10 +587,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/handedness-vs"
+        "reference" : "ValueSet/icd-selectio-vs"
       },
-      "name" : "Handedness Value Set",
-      "description" : "Indicates the dominant hand.",
+      "name" : "ICD Selectio Value Set",
+      "description" : "A fine selection of ICD code.",
       "exampleBoolean" : false
     }],
     "page" : {
